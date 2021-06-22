@@ -1,5 +1,7 @@
 const qrcode = require('qrcode-terminal');
 const inquirer = require('inquirer');
+const chalk = require('chalk');
+/* const name = require("./name"); */
 
 const { Client } = require('whatsapp-web.js');
 const client = new Client();
@@ -13,7 +15,9 @@ client.on('qr', qr => {
 });
 
 client.on('ready', () => {
-    console.log('Client is ready! Welcome!');
+    console.log("");
+    console.log(chalk.bgWhite.bold.black("SPAMAITOR-3000"));
+    console.log("");
     start();
 });
 
