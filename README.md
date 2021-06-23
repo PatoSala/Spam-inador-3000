@@ -1,4 +1,4 @@
-# Spamaitor-3000
+# Spam-inador-3000
 Spam your whatsapp contacts :)
 
 ## First Steps  
